@@ -88,219 +88,301 @@
                 </div>
                 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineering Lead</h3>
                         <span class="company">Dock</span>
                         <span class="period">June 2023 - Present (2 years 8 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Espírito Santo, Brazil</p>
-                    <p class="job-description">
-                        I oversee the Authorization & Clearing OnUs platform, which authorizes private label transactions and other 
-                        operations for credit and debit cards. In this role, I manage Software and Quality Engineers, provide customer 
-                        support, and collaborate closely with the Technical Product Owner on backlog prioritization. Additionally, I am 
-                        responsible for managing the authorization tribe's on-call schedule.
-                    </p>
+                    <p class="location">Remote</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            I oversee the Authorization & Clearing OnUs platform, which authorizes private label transactions and other 
+                            operations for credit and debit cards. In this role, I manage Software and Quality Engineers, provide customer 
+                            support, and collaborate closely with the Technical Product Owner on backlog prioritization. Additionally, I am 
+                            responsible for managing the authorization tribe's on-call schedule.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Java, VB, Go, Microservices, Cloud Infrastructure, Payment Systems, API Gateway, CI/CD, Monitoring & Observability</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Head of Data</h3>
                         <span class="company">Quanto</span>
                         <span class="period">September 2021 - April 2023 (1 year 8 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Espírito Santo, Brazil</p>
-                    <p class="job-description">
-                        Led the growth and structuring of the data team, encompassing Data Governance, Data Platform, and Data Insights, 
-                        expanding from 2 to 12 engineers. Facilitated daily retrospectives and planning ceremonies. Conducted 1:1 meetings 
-                        with all team members. Supported career growth through individual development plans and formulated tactical OKRs 
-                        for the data team. Proposed new solutions and architectures to address technical debt and scalability challenges. 
-                        Translated business priorities into actionable team activities.
-                    </p>
+                    <p class="location">Remote</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Led the growth and structuring of the data team, encompassing Data Governance, Data Platform, and Data Insights, 
+                            expanding from 2 to 12 engineers. Facilitated daily retrospectives and planning ceremonies. Conducted 1:1 meetings 
+                            with all team members. Supported career growth through individual development plans and formulated tactical OKRs 
+                            for the data team. Proposed new solutions and architectures to address technical debt and scalability challenges. 
+                            Translated business priorities into actionable team activities.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Data Engineering, Data Governance, Data Platform, Python, SQL, Cloud Data Services, ETL/ELT Pipelines, Data Warehousing, Business Intelligence Tools</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Tech Manager | Platform</h3>
                         <span class="company">Pagar.me</span>
                         <span class="period">February 2021 - July 2021 (6 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
                     <p class="location">Remote</p>
-                    <p class="job-description">
-                        Led the PCI DSS environment and API Gateway team, providing clear direction and mentorship to achieve team goals. 
-                        Ensured a safe and productive work environment while supporting the career growth of team members. Managed infrastructure 
-                        costs and tools, ensuring cost-effective and efficient operations. Reported results using the Flighting Levels framework 
-                        and authored comprehensive documentation for compliance and other purposes.
-                    </p>
-                    <p class="tech-stack"><strong>Tech Stack:</strong> PCI DSS, API Gateway, Infrastructure Management, Flighting Levels Framework</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Led the PCI DSS environment and API Gateway team, providing clear direction and mentorship to achieve team goals. 
+                            Ensured a safe and productive work environment while supporting the career growth of team members. Managed infrastructure 
+                            costs and tools, ensuring cost-effective and efficient operations. Reported results using the Flighting Levels framework 
+                            and authored comprehensive documentation for compliance and other purposes.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> PCI DSS, API Gateway, Infrastructure Management, Flighting Levels Framework</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineer</h3>
                         <span class="company">Pagar.me</span>
                         <span class="period">November 2019 - February 2021 (1 year 4 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
                     <p class="location">Remote</p>
-                    <p class="job-description">
-                        Maintained a legacy PCI DSS-compliant environment, implementing best practices in software engineering and DevOps to 
-                        ensure security and compliance. Primarily developed applications using Go and managed the API Gateway with OpenResty 
-                        and Lua. Leveraged a tech stack based on HashiCorp tools, including Nomad, Consul, and Vault, for robust service 
-                        orchestration and management. Deployed infrastructure on AWS using Infrastructure as Code (IaC) to achieve efficient, 
-                        repeatable, and scalable deployments. Actively contributed to incident response, collaborating closely with the DevOps team 
-                        to enhance system reliability and performance.
-                    </p>
-                    <p class="tech-stack"><strong>Tech Stack:</strong> Go, OpenResty, Lua, Nomad, Consul, Vault, AWS, Infrastructure as Code (IaC)</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Maintained a legacy PCI DSS-compliant environment, implementing best practices in software engineering and DevOps to 
+                            ensure security and compliance. Primarily developed applications using Go and managed the API Gateway with OpenResty 
+                            and Lua. Leveraged a tech stack based on HashiCorp tools, including Nomad, Consul, and Vault, for robust service 
+                            orchestration and management. Deployed infrastructure on AWS using Infrastructure as Code (IaC) to achieve efficient, 
+                            repeatable, and scalable deployments. Actively contributed to incident response, collaborating closely with the DevOps team 
+                            to enhance system reliability and performance.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Go, OpenResty, Lua, Nomad, Consul, Vault, AWS, Infrastructure as Code (IaC)</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Solutions Architect</h3>
                         <span class="company">pag!</span>
                         <span class="period">June 2019 - October 2019 (5 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Espírito Santo, Brazil</p>
-                    <p class="job-description">
-                        Led the migration from On-Premise and Oracle Cloud infrastructure to AWS, implementing a DevOps culture and transitioning 
-                        from virtual machines to Linux containers using AWS ECS. Managed AWS accounts and designed network architecture to ensure 
-                        secure, scalable, and efficient cloud operations.
-                    </p>
-                    <p class="tech-stack"><strong>Tech Stack:</strong> Docker, AWS, Oracle Cloud, ECS, Packer, Ansible, Terraform, Python</p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Led the migration from On-Premise and Oracle Cloud infrastructure to AWS, implementing a DevOps culture and transitioning 
+                            from virtual machines to Linux containers using AWS ECS. Managed AWS accounts and designed network architecture to ensure 
+                            secure, scalable, and efficient cloud operations.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Docker, AWS, Oracle Cloud, ECS, Packer, Ansible, Terraform, Python</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Data Engineer</h3>
                         <span class="company">pag!</span>
                         <span class="period">July 2018 - June 2019 (1 year)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Espírito Santo, Brazil</p>
-                    <p class="job-description">
-                        Successfully led the migration of a legacy Business Intelligence architecture to a modern data pipeline. Utilizing Pentaho 
-                        Data Integration, I moved data from Oracle Database to AWS Redshift, ensuring efficient and scalable data management. 
-                        Integrated third-party services to provide new business insights, significantly enhancing data-driven decision-making. 
-                        Replaced Tableau with Metabase, empowering team members to interact with and analyze data more effectively. Conducted data 
-                        analysis for fraud detection, money laundering, customer behavior, and other critical areas. Designed a robust Data Lake 
-                        to support diverse data storage needs.
-                    </p>
-                    <p class="tech-stack">
-                        <strong>Tech Stack:</strong> Docker, Tableau, Oracle Database, Redshift, Jenkins, Pentaho Data Integration (Kettle), 
-                        Python, Jupyter Notebooks, AWS Lambda, AWS EC2, AWS DocumentDB, RDS (Postgres), AWS API Gateway, Metabase
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Successfully led the migration of a legacy Business Intelligence architecture to a modern data pipeline. Utilizing Pentaho 
+                            Data Integration, I moved data from Oracle Database to AWS Redshift, ensuring efficient and scalable data management. 
+                            Integrated third-party services to provide new business insights, significantly enhancing data-driven decision-making. 
+                            Replaced Tableau with Metabase, empowering team members to interact with and analyze data more effectively. Conducted data 
+                            analysis for fraud detection, money laundering, customer behavior, and other critical areas. Designed a robust Data Lake 
+                            to support diverse data storage needs.
+                        </p>
+                        <p class="tech-stack">
+                            <strong>Tech Stack:</strong> Docker, Tableau, Oracle Database, Redshift, Jenkins, Pentaho Data Integration (Kettle), 
+                            Python, Jupyter Notebooks, AWS Lambda, AWS EC2, AWS DocumentDB, RDS (Postgres), AWS API Gateway, Metabase
+                        </p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineer</h3>
                         <span class="company">Wine.com.br</span>
                         <span class="period">February 2018 - July 2018 (6 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Espírito Santo, Brazil</p>
-                    <p class="job-description">
-                        Developed web crawlers using Ruby, enabling efficient data extraction from various online sources. Created Python notebooks 
-                        for analyzing diverse datasets, providing valuable business insights and data-driven decision-making. Provisioned Docker 
-                        Jupyter Lab servers to facilitate collaborative work among team members. Experience in microservices architecture using API 
-                        Gateway, Lambda, Cognito, and DynamoDB.
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Developed web crawlers using Ruby, enabling efficient data extraction from various online sources. Created Python notebooks 
+                            for analyzing diverse datasets, providing valuable business insights and data-driven decision-making. Provisioned Docker 
+                            Jupyter Lab servers to facilitate collaborative work among team members. Experience in microservices architecture using API 
+                            Gateway, Lambda, Cognito, and DynamoDB.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Ruby, Python, Jupyter Notebooks, Docker, AWS Lambda, AWS API Gateway, AWS Cognito, DynamoDB, Web Scraping, Data Analysis</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineer</h3>
                         <span class="company">B2W Digital</span>
                         <span class="period">August 2016 - January 2018 (1 year 6 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Rio de Janeiro Area, Brazil</p>
-                    <p class="job-description">
-                        Developed and deployed microservices using Go and Java. Built robust WebApps with Node.js and React. Processed data pipelines 
-                        with Spark on AWS EMR. Wrote efficient queries for both MongoDB and Cassandra. Designed and maintained Kibana dashboards for 
-                        real-time data visualization. Deployed applications using Mesos/Marathon, utilizing Bamboo CI for continuous integration and 
-                        delivery. Implemented New Relic for monitoring and performance analysis. Set up and managed development environments with Docker 
-                        and Docker Compose.
-                    </p>
+                    <p class="location">Rio de Janeiro - RJ, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Developed and deployed microservices using Go and Java. Built robust WebApps with Node.js and React. Processed data pipelines 
+                            with Spark on AWS EMR. Wrote efficient queries for both MongoDB and Cassandra. Designed and maintained Kibana dashboards for 
+                            real-time data visualization. Deployed applications using Mesos/Marathon, utilizing Bamboo CI for continuous integration and 
+                            delivery. Implemented New Relic for monitoring and performance analysis. Set up and managed development environments with Docker 
+                            and Docker Compose.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Go, Java, Node.js, React, Apache Spark, AWS EMR, MongoDB, Cassandra, Kibana, Mesos/Marathon, Bamboo CI, Docker, Docker Compose, New Relic</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineer</h3>
                         <span class="company">Intelie</span>
                         <span class="period">May 2013 - August 2016 (3 years 4 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">São Paulo Area, Brazil</p>
-                    <p class="job-description">
-                        Extensive experience in Ruby on Rails development using JRuby. Wrote complex MySQL queries. Managed vSphere environments and 
-                        administered Linux servers running CentOS and Ubuntu. Provisioned servers using Vagrant, Puppet, and Ansible on AWS and other 
-                        platforms. Frontend development with jQuery, Backbone, Angular, and React. Developed Windows desktop applications using Python 
-                        (with a focus on GUI development with Qt) and C++. Provisioned Selenium Grid with Docker for automated testing. Database management 
-                        with MongoDB. Developed web applications using Node.js and Java. Built data extractors from various sources, including Google Analytics, 
-                        Google Spreadsheets, Zendesk, SNMP, Twitter, and more. Implemented machine stats collectors using Go. Developed Ansible plugins 
-                        with Python.
-                    </p>
+                    <p class="location">Remote</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Extensive experience in Ruby on Rails development using JRuby. Wrote complex MySQL queries. Managed vSphere environments and 
+                            administered Linux servers running CentOS and Ubuntu. Provisioned servers using Vagrant, Puppet, and Ansible on AWS and other 
+                            platforms. Frontend development with jQuery, Backbone, Angular, and React. Developed Windows desktop applications using Python 
+                            (with a focus on GUI development with Qt) and C++. Provisioned Selenium Grid with Docker for automated testing. Database management 
+                            with MongoDB. Developed web applications using Node.js and Java. Built data extractors from various sources, including Google Analytics, 
+                            Google Spreadsheets, Zendesk, SNMP, Twitter, and more. Implemented machine stats collectors using Go. Developed Ansible plugins 
+                            with Python.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Ruby on Rails, JRuby, MySQL, vSphere, Linux (CentOS, Ubuntu), Vagrant, Puppet, Ansible, AWS, jQuery, Backbone.js, Angular, React, Python, Qt, C++, Docker, Selenium Grid, MongoDB, Node.js, Java, Go, REST APIs</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Software Engineer</h3>
                         <span class="company">Giran Ecommerce Solutions</span>
                         <span class="period">April 2012 - January 2013 (10 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória Area, Brazil</p>
-                    <p class="job-description">
-                        Extensive experience in Ruby on Rails development. Frontend development using jQuery and various plugins. Provisioned servers using 
-                        Bash scripts on Linode. Proficient in writing complex MySQL queries and performing database backup and restore operations.
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Extensive experience in Ruby on Rails development. Frontend development using jQuery and various plugins. Provisioned servers using 
+                            Bash scripts on Linode. Proficient in writing complex MySQL queries and performing database backup and restore operations.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Ruby on Rails, jQuery, MySQL, Bash, Linux, Linode, Web Development</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Community Manager</h3>
                         <span class="company">iMasters</span>
                         <span class="period">September 2011 - April 2012 (8 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Brazil</p>
-                    <p class="job-description">
-                        Provided comprehensive support to developers working with APIs from PayPal, MoIP, and Buscapé. Wrote detailed and informative articles 
-                        for the portal. Reviewed and edited articles to ensure accuracy, clarity, and consistency. Translation responsibilities.
-                    </p>
+                    <p class="location">Remote</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Provided comprehensive support to developers working with APIs from PayPal, MoIP, and Buscapé. Wrote detailed and informative articles 
+                            for the portal. Reviewed and edited articles to ensure accuracy, clarity, and consistency. Translation responsibilities.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> REST APIs, PayPal API, MoIP API, Buscapé API, Technical Documentation, Content Management</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>System Admin</h3>
                         <span class="company">UFES - Universidade Federal do Espírito Santo</span>
                         <span class="period">April 2010 - March 2011 (1 year)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="location">Vitória, Brazil</p>
-                    <p class="job-description">
-                        Configured and maintained both Ethernet and wireless networks. Configured and maintained various Linux services. Implemented and 
-                        managed a Wiki using MediaWiki CMS. Developed and maintained websites using Drupal. MySQL database administration.
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Configured and maintained both Ethernet and wireless networks. Configured and maintained various Linux services. Implemented and 
+                            managed a Wiki using MediaWiki CMS. Developed and maintained websites using Drupal. MySQL database administration.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Linux, Network Administration, MediaWiki, Drupal, MySQL, Web Server Administration</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>Research Student</h3>
                         <span class="company">UFES - Universidade Federal do Espírito Santo</span>
                         <span class="period">July 2008 - July 2009 (1 year 1 month)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="job-description">
-                        Extensive experience in multiplatform development using Python. Configured Oracle Grid Engine to optimize job scheduling and 
-                        resource management in a high-performance computing environment. Strong background in digital image processing, utilizing Matlab. 
-                        Configured and managed LDAP directories.
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Extensive experience in multiplatform development using Python. Configured Oracle Grid Engine to optimize job scheduling and 
+                            resource management in a high-performance computing environment. Strong background in digital image processing, utilizing Matlab. 
+                            Configured and managed LDAP directories.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Python, Oracle Grid Engine, Matlab, LDAP, High-Performance Computing, Digital Image Processing</p>
+                    </div>
                 </div>
 
                 <div class="job">
-                    <div class="job-header">
+                    <div class="job-header" onclick="toggleJob(this.querySelector('.toggle-btn'))">
                         <h3>System Admin</h3>
                         <span class="company">UFES - Universidade Federal do Espírito Santo</span>
                         <span class="period">April 2007 - July 2008 (1 year 4 months)</span>
+                        <button class="toggle-btn" onclick="event.stopPropagation(); toggleJob(this)" aria-label="Toggle job details" aria-expanded="true">
+                            <span class="toggle-icon">▼</span>
+                        </button>
                     </div>
-                    <p class="job-description">
-                        Configured and managed Linux servers, including setting up and managing firewalls using Iptables, configuring network services 
-                        such as Bind (DNS), DHCP, NIS, and NFS, and installing and managing web and proxy servers like Apache, Dansguardian, and Squid. 
-                        Database administration with both MySQL and PostgreSQL. In-depth knowledge and hands-on experience with FreeBSD and OpenBSD servers. 
-                        Utilized System Imager to efficiently clone machines. Managed and maintained Xen servers.
-                    </p>
+                    <p class="location">Vitória - ES, Brazil</p>
+                    <div class="job-content">
+                        <p class="job-description">
+                            Configured and managed Linux servers, including setting up and managing firewalls using Iptables, configuring network services 
+                            such as Bind (DNS), DHCP, NIS, and NFS, and installing and managing web and proxy servers like Apache, Dansguardian, and Squid. 
+                            Database administration with both MySQL and PostgreSQL. In-depth knowledge and hands-on experience with FreeBSD and OpenBSD servers. 
+                            Utilized System Imager to efficiently clone machines. Managed and maintained Xen servers.
+                        </p>
+                        <p class="tech-stack"><strong>Tech Stack:</strong> Linux, FreeBSD, OpenBSD, Iptables, Bind (DNS), DHCP, NIS, NFS, Apache, Squid, Dansguardian, MySQL, PostgreSQL, System Imager, Xen Virtualization</p>
+                    </div>
                 </div>
             </section>
 
@@ -423,6 +505,24 @@
         <span class="floating-cta-icon">💬</span>
         <span class="floating-cta-text">Let's Talk</span>
     </a>
+
+    <script>
+        function toggleJob(button) {
+            const job = button.closest('.job');
+            const content = job.querySelector('.job-content');
+            const icon = button.querySelector('.toggle-icon');
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                icon.textContent = '▼';
+                button.setAttribute('aria-expanded', 'true');
+            } else {
+                content.classList.add('collapsed');
+                icon.textContent = '▶';
+                button.setAttribute('aria-expanded', 'false');
+            }
+        }
+    </script>
 </body>
 </html>
 

@@ -302,6 +302,61 @@ body {
     align-items: baseline;
     gap: 12px;
     margin-bottom: 12px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.job-header:hover {
+    background-color: rgba(11, 61, 145, 0.05);
+}
+
+.toggle-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.toggle-btn:hover {
+    background: var(--primary-dark);
+    transform: scale(1.1);
+}
+
+.toggle-icon {
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.job-content {
+    transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.3s ease, padding 0.3s ease;
+    overflow: hidden;
+    max-height: 2000px;
+    opacity: 1;
+}
+
+.job-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .job-header h3 {
